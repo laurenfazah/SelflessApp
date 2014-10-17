@@ -39,7 +39,8 @@ class ContributionsController < ApplicationController
 
 	def destroy
 		@contribution = Contribution.find(params[:id])
-
+		@contribution.destroy
+		redirect_to :back
 	end
 
 	private

@@ -3,5 +3,5 @@
 <%= render 'form' %>
 
 <% @contributions.each do |contribution| %>
-	<%= contribution.content %><br>
+	<%= contribution.content %><%= link_to 'Delete Contribution', contribution, method: :delete, data: { confirm: 'Are you sure?' } %> <br>
 <% end %>
