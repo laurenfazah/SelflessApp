@@ -1,0 +1,7 @@
+<h1>User Contributions</h1>
+
+<%= render 'form' %>
+
+<% @contributions.each do |contribution| %>
+	<%= contribution.content %><br>
+<% end %>
