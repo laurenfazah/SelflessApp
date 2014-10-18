@@ -3,5 +3,11 @@
 <%= render 'form' %>
 
 <% @contributions.each do |contribution| %>
-	<%= contribution.content %><%= link_to 'Delete Contribution', contribution, method: :delete, data: { confirm: 'Are you sure?' } %> <br>
+	<%= contribution.content %>  <%= link_to 'Delete Contribution', contribution, method: :delete, data: { confirm: 'Are you sure?' } %><br>
 <% end %>
+
+
+<br>
+<nav>
+	<%= link_to 'Back Home', deeds_path %>
+</nav>
