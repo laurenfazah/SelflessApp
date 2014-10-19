@@ -17,13 +17,11 @@ ActiveRecord::Schema.define(version: 20141017151642) do
   enable_extension "plpgsql"
 
   create_table "contributions", force: true do |t|
-    t.string  "content"
-    t.integer "user_id"
+    t.string "content"
   end
 
   create_table "deeds", force: true do |t|
-    t.string  "deed"
-    t.integer "user_id"
+    t.string "deed"
   end
 
   create_table "users", force: true do |t|
