@@ -1,10 +1,16 @@
 source 'https://rubygems.org'
 
 ruby "2.1.2"
+<<<<<<< HEAD
 gem 'devise'
 
 gem 'twilio-ruby', '~> 3.12'
 
+=======
+# gem 'devise'
+# gem 'omniauth-twitter'
+gem 'twitter'
+>>>>>>> 97cefa491ac4217bdee8557c84f3657355f9b049
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0.beta2'
 # Use postgresql as the database for Active Record
