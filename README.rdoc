@@ -29,5 +29,14 @@ Please feel free to use a different markup language if you do not plan to run
 
 
 Notes: 
-- issues with devise
-- secret key running in production mode
+models - (don't inherit) TwilioClients
+	class method: sets up and sends
+
+	can call from any controller or model
+
+	active record callbacks/hooks (after save) - can say to run method 
+	after save
+
+	add columns to devise
+	alter in app controller
+	in devise readme  - for strong params

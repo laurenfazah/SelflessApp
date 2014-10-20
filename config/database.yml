@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: SelflessApp_production
-  username: SelflessApp
-  password: <%= ENV['SELFLESSAPP_DATABASE_PASSWORD'] %>
+  # username: SelflessApp
+  # password: <%= ENV['SELFLESSAPP_DATABASE_PASSWORD'] %>
