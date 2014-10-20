@@ -4,14 +4,14 @@ class NotificationsController < ApplicationController
 	skip_before_action :verify_authenticity_token
 	before_action :set_twilio_client
 
-	@numbers = []
-	User.all.select {|user| numbers << user.phone_number}
+	$numbers = []
+	User.all.select {|user| $numbers << user.phone_number}
 
 
 	def notify
 		message = @client.messages.create(
 			from: '+14012294812',
-			to: @numbers,
+			to: $numbers,
 			body: 'Test!'
 			)
 
