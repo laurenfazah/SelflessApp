@@ -12,7 +12,7 @@ class NotificationsController < ApplicationController
 		message = @client.messages.create(
 			from: '+14012294812',
 			to: @numbers,
-			body: 'Hey there!'
+			body: 'Test!'
 			)
 
 		render plain: message.status
