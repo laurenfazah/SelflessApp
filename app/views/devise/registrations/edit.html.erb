@@ -3,7 +3,7 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
 
-  <div><%= f.label :phone_number %><br />
+  <div><%= f.label :phone_number %><i>(10 digits without spaces nor dashes)</i><br />
   <%= f.text_field :phone_number %></div>
 
   <div><%= f.label :email %><br />
