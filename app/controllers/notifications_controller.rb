@@ -12,7 +12,7 @@ class NotificationsController < ApplicationController
 			)
 
 		render plain: message.status
-
+# binding.pry
 	end
 
 	private
