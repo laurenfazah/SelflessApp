@@ -1,15 +1,18 @@
-class NotificationController < ApplicationController
+class NotificationsController < ApplicationController
 	require 'twilio-ruby'
 
 	skip_before_action :verify_authenticity_token
 	before_action :set_twilio_client
 
 	def notify
-		@client.messages.create(
+		message = @client.messages.create(
 			from: '+14012294812',
 			to: '+14016515884',
 			body: 'Hey there!'
 			)
+
+		render plain: message.status
+
 	end
 
 	private
