@@ -37,9 +37,13 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (6.0.0.beta1)
+    autoprefixer-rails (3.1.2.20141016)
+      execjs
     bcrypt (3.1.7)
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
     builder (3.2.2)
     byebug (3.5.1)
       columnize (~> 0.8)
@@ -140,6 +144,7 @@ GEM
       json (~> 1.4)
     responders (2.0.0)
       railties (>= 4.2.0.alpha, < 5)
+    sass (3.4.6)
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -180,6 +185,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
+  bootstrap-sass (~> 3.2.0)
   coffee-rails (~> 4.0.0)
   devise
   dotenv-rails
@@ -190,6 +197,7 @@ DEPENDENCIES
   pry-rails
   rails (= 4.2.0.beta2)
   rails_12factor
+  sass
   sdoc (~> 0.4.0)
   spring
   turbolinks

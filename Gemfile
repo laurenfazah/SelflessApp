@@ -14,6 +14,9 @@ gem 'dotenv-rails'
 gem 'devise'
 gem 'twilio-ruby', '~> 3.12'
 gem 'rails_12factor', group: :production
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+gem 'sass'
 
 group :development, :test do
 	gem 'pry-byebug'
