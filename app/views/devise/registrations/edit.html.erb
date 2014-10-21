@@ -3,32 +3,57 @@
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= devise_error_messages! %>
 
-  <div><%= f.label :phone_number %><br>
-    <i>10 digits without spaces nor dashes - we'll send your texts to this number (standard messaging fees apply)</i><br>
-  <%= f.text_field :phone_number %></div>
+  <div class = "form-group">
+    <%= f.label :phone_number %><br>
+      <i>10 digits without spaces nor dashes - we'll send your texts to this number (standard messaging fees apply)</i><br>
+    <div class = "col-sm-12">
+      <%= f.text_field :phone_number %>
+    </div>
+  </div>
 
-  <div><%= f.label :email %><br />
-  <%= f.email_field :email, autofocus: true %></div>
+  <div class = "form-group">
+    <%= f.label :email %><br>
+    <div class = "col-sm-12">
+      <%= f.email_field :email, autofocus: true %>
+    </div>
+  </div>
 
   <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
 
-  <div><%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
-    <%= f.password_field :password, autocomplete: "off" %></div>
+  
+  <div class = "form-group">
+    <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br>
+    <div class = "col-sm-12">
+      <%= f.password_field :password, autocomplete: "off" %>
+    </div>
+  </div>
 
-  <div><%= f.label :password_confirmation %><br />
-    <%= f.password_field :password_confirmation, autocomplete: "off" %></div>
+  <div class = "form-group">
+    <%= f.label :password_confirmation %><br>
+    <div class = "col-sm-12">
+      <%= f.password_field :password_confirmation, autocomplete: "off" %>
+    </div>
+  </div>
 
-  <div><%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-    <%= f.password_field :current_password, autocomplete: "off" %></div>
-
-  <div><%= f.submit "Update", class: 'btn btn-success btn-sm' %></div>
+  <div class = "form-group">
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br>
+    <div class = "col-sm-12">
+      <%= f.password_field :current_password, autocomplete: "off" %>
+    </div>
+  </div>
+  <br>
+  <div class = "form-group">
+    <div class = "col-sm-12">
+      <%= f.submit "Update", class: 'btn btn-success btn-sm' %>
+    </div>
+  </div>
 <% end %>
-
+<br>
 <h3>Cancel my account</h3>
 
-<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+<p>Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete, class: 'btn btn-default btn-xs' %></p>
 
 <div class="navbar navbar-fixed-bottom">
   <div class="container">
