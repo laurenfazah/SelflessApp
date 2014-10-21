@@ -40,3 +40,10 @@ models - (don't inherit) TwilioClients
 	add columns to devise
 	alter in app controller
 	in devise readme  - for strong params
+
+
+TO DO :
+edit top nav bar
+get more links
+populate texts messages
+figure out why it only messages to one person
