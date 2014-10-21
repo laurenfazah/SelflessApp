@@ -7,13 +7,17 @@ class NotificationsController < ApplicationController
 	$numbers = []
 	User.all.select {|user| $numbers << user.phone_number}
 
-	$daily_text = "Test!"
+
+	def daily_text
+		$daily_text = ["Test 1", "Test 2", "Test 3"]
+		$daily_text.sample
+	end
 
 	def notify
 		message = @client.messages.create(
 			from: '+14012294812',
 			to: $numbers,
-			body: $daily_text
+			body: daily_text
 			)
 
 		render plain: message.status
