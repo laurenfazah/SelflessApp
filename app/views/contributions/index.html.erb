@@ -1,11 +1,20 @@
-<h1>User Contributions</h1>
-
-<%= render 'form' %>
-
-<% @contributions.each do |contribution| %>
-	<%= contribution.content %>  <%= link_to 'Delete Contribution', contribution, method: :delete, data: { confirm: 'Are you sure?' } %><br>
-<% end %>
-
+<div class = "container">
+	<div class = "row">
+		<div class = "col-xs-12">
+			<h1>User Contributions</h1>
+		</div>
+	</div>
+	<div class = "row">
+		<div class = "col-xs-6">
+			<% @contributions.each do |contribution| %>
+				<%= contribution.content %>  <%= link_to 'Delete Contribution', contribution, method: :delete, data: { confirm: 'Are you sure?' } %><br>
+			<% end %>
+		</div>
+		<div class = "col-xs-6">
+			<%= render 'form' %>
+		</div>	
+	</div>
+</div>
 
 <br>
 <nav>
