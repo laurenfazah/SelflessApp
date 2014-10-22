@@ -28,8 +28,8 @@
 }
 
 .btn.btn-lg.btn-primary.caro {
-	background-color: #223232;
-	border-color: #223232;
+	background-color: #1c998e;
+	border-color: #1c998e;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav {
 	padding-bottom: 20px;
 }
 
-/* awesome color #fe5f3d;*/
+/* awesome color #fe5f3d; #223232*/
 
 .navbar-wrapper {
   position: absolute;
@@ -50,7 +50,7 @@ nav {
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
-  
+
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
