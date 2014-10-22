@@ -43,17 +43,13 @@ models - (don't inherit) TwilioClients
 
 
 TO DO :
-edit top nav bar
 get more links
 populate texts messages
 figure out why it only messages to one person
 add photo creds
 add username for comments
-sign up button homepage
-
-
-
-
+remove redundant back home buttons 
+fix sign up going to contributions page
 
 
 
