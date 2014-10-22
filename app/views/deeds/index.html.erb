@@ -10,7 +10,14 @@
         <div class="carousel-caption">
           <h1>Welcome to Selfless!</h1>
           <h3>Selfless is sending you daily reminders of good deeds you can make happen <strong>straight to your phone.</strong></h3>    
-          <p><a class="btn btn-lg btn-primary caro" href="/users/sign_up" role="button">Sign Up</a></p>
+          <p>
+                <% if user_signed_in? %>
+                  <%= link_to 'Edit Account', edit_user_registration_path, class: "btn btn-lg btn-primary caro" %></li>
+                <% else %>
+                  <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-lg btn-primary caro" %></li>
+                <% end %>
+                </p>
+
         </div>
       </div>
     </div>
