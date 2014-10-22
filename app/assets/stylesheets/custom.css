@@ -59,3 +59,13 @@ nav {
 .navbar-wrapper .navbar .container {
   width: auto;
 }
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+div.container.spacer {
+  margin-bottom: 100px;
+}
+
