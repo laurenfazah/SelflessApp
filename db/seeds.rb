@@ -7,4 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-@contr = Contribution.create(content: "I did a good deed today.")
+@contr = Contribution.create(content: "I gave a stranger a friendly compliment.")
