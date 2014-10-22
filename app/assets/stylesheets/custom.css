@@ -69,3 +69,7 @@ div.container.spacer {
   margin-bottom: 100px;
 }
 
+#credit {
+  text-align: right;
+  font-size: 90%;
+}
