@@ -9,12 +9,12 @@
 		</div>
 	</div>
 	<div class = "row">
-		<div class = "col-xs-6">
+		<div class = "col-xs-8">
 			<% @contributions.each do |contribution| %>
 				<%= contribution.content %>  <%= link_to 'Delete Contribution', contribution, method: :delete, data: { confirm: 'Are you sure?' } %><br>
 			<% end %>
 		</div>
-		<div class = "col-xs-6">
+		<div class = "col-xs-4">
 			<%= render 'form' %>
 		</div>	
 	</div>

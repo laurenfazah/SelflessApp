@@ -43,10 +43,8 @@ models - (don't inherit) TwilioClients
 
 
 TO DO :
-get more links
 populate texts messages
 figure out why it only messages to one person
-add photo creds
 
 
 
