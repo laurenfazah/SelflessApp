@@ -45,6 +45,7 @@ models - (don't inherit) TwilioClients
 TO DO :
 populate texts messages
 figure out why it only messages to one person
+edit message method to take first item in array, send it, then remove it
 
 
 
