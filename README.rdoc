@@ -48,8 +48,7 @@ populate texts messages
 figure out why it only messages to one person
 add photo creds
 add username for comments
-remove redundant back home buttons 
-fix sign up going to contributions page
+
 
 
 
