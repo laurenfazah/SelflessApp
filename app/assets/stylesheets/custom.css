@@ -3,11 +3,13 @@
 	border-color: purple;
 	color: white;
 	margin-top: 20px;
+	width: 300px;
 }
 
 #login_bar {
 	text-align: center;
 }
+
 .carousel {
   height: 500px;
   margin-bottom: 60px;
@@ -25,8 +27,14 @@
   height: 500px;
 }
 
+.btn.btn-lg.btn-primary.caro {
+	background-color: #223232;
+	border-color: #223232;
+}
+
 nav {
 	text-align: center;
 	padding-bottom: 20px;
 }
 
+/* awesome color #fe5f3d;*/
