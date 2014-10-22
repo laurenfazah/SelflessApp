@@ -21,7 +21,12 @@ class TwilioClient
 	private
 
 	def daily_text
-		["Test 1", "Test 2", "Test 3"].sample
+		["Help someone with a task they're struggling with.",
+	"Let someone know you appreciate them.",
+	"Share a smile - they're contagious.",
+	"Bring in a treat for a classmate or coworker just because.",
+	"Pay for the coffee of the customer behind you in line.",
+	"Ask someone out for lunch you know but haven't gotten to know yet."].sample
 	end
 
 	def all_phone_numbers
