@@ -41,11 +41,8 @@ models - (don't inherit) TwilioClients
 	alter in app controller
 	in devise readme  - for strong params
 
-
-TO DO :
-populate texts messages
-figure out why it only messages to one person
-edit message method to take first item in array, send it, then remove it
+Find Online:
+	http://selfless-app.com
 
 
 Presentation notes:
@@ -56,5 +53,5 @@ I like simple, so I wanted to make something simple and effective. Hence, Selfle
 	what it does
 	how it works
 	sign up
-	
+
 
