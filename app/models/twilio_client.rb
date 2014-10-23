@@ -9,7 +9,7 @@ class TwilioClient
 	end
 
 	def notify
-		all_phone_numbers.each_with_index do |number|
+		all_phone_numbers.each do |number|
 			@client.account.messages.create(
 				from: '+14012294812',
 				to: number,
