@@ -48,5 +48,13 @@ figure out why it only messages to one person
 edit message method to take first item in array, send it, then remove it
 
 
+Presentation notes:
 
+I like simple, so I wanted to make something simple and effective. Hence, Selfless.
+	planning the project
+	building
+	what it does
+	how it works
+	sign up
+	
 
