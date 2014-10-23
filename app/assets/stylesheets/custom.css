@@ -73,3 +73,7 @@ div.container.spacer {
   text-align: right;
   font-size: 90%;
 }
+
+#footer {
+  clear: all;
+}
