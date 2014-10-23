@@ -29,3 +29,9 @@ class TwilioClient
 	end
 
 end
+
+# changing method:
+# try running in a ruby file and puts the return
+# def daily_text
+# 	["array 1", "array 2"].shift
+# end
