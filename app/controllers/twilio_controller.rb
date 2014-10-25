@@ -10,7 +10,7 @@ class TwilioController < ApplicationController
   def voice
     response = Twilio::TwiML::Response.new do |r|
       # Do these uppercase method names work?
-      r.Say 'Hey there. Congrats on integrating Twilio into your Rails 4 app.', voice: 'alice'
+      r.Say 'Welcome to Selfless! Check out selfless-app.com for more information or account editing.', voice: 'alice'
       r.Play 'http://linode.rabasa.com/cantina.mp3'
     end
  

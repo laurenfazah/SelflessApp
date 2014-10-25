@@ -11,13 +11,12 @@
           <h1>Welcome to Selfless!</h1>
           <h3>Selfless is sending you daily reminders of good deeds you can make happen <strong>straight to your phone.</strong></h3>    
           <p>
-                <% if user_signed_in? %>
-                  <%= link_to 'Edit Account', edit_user_registration_path, class: "btn btn-lg btn-primary caro" %></li>
-                <% else %>
-                  <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-lg btn-primary caro" %></li>
-                <% end %>
-                </p>
-
+            <% if user_signed_in? %>
+              <%= link_to 'Edit Account', edit_user_registration_path, class: "btn btn-lg btn-primary caro" %></li>
+            <% else %>
+              <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-lg btn-primary caro" %></li>
+            <% end %>
+          </p>
         </div>
       </div>
     </div>
@@ -38,7 +37,20 @@
   <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
 
-
+<div class = "container">
+  <div class = "row">
+    <div class = "col-xs-12">
+      <h2>How Selfless Works:</h2>
+    </div>
+  </div>
+  <div class = "row">
+    <div class = "col-xs-12">
+      <h4>Selfless is a web application designed to send its users reminders of good deeds they can do each day. By signing up, you are allowing Selfless to send text messages to the phone number that you provide. If you no longer wish to subscribe to these text messages, simply delete your account from the "Edit Account" page.</h4>
+      <h4>By becoming a member of Selfless, you are also given access to our Good Deeds Forum. Users can contribute their own ideas for good deeds, read other users' ideas, and are also given the power to delete others' contributions if deemed inappropriate.</h4>
+      <h4>I hope you enjoy Selfless! If you have any further questions, feel free to email me at laurenfazah@gmail.com</h4>
+    </div>
+  </div>
+</div>
 
 <div class = "container">
 	<div class = "row">

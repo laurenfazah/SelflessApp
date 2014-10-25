@@ -30,5 +30,4 @@ To Do in Future:
 	change message method
 	add international note for signing up 
 	add my name in footer
-
-
+how this works content on first page

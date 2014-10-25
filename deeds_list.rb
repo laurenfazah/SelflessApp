@@ -12,7 +12,11 @@
 	# "If you can say yes, say yes. -Selfless",
 	# "Volunteer for a community service event. -Selfless",
 	# "If you don't have a pet allergy, go to your local pet shelter and give those cats and dogs (and others) some attention. -Selfless",
-	
+	"Take out your neighbor's trash. -Selfless",
+	"Ask someone how their day is going - make sure you (1) mean it and (2) listen. -Selfless",
+	"Mow your neighbor's lawn. -Selfless",
+
+
 
 
 
