@@ -22,7 +22,6 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Share a smile - they're contagious. -Selfless",
 			"Bring in a treat for a classmate or coworker just because. -Selfless",
 			"Pay for the coffee of the customer behind you in line. -Selfless",
 			"Ask someone out for lunch you know but haven't gotten to know yet. -Selfless",
