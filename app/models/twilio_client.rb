@@ -22,7 +22,6 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Pay for the coffee of the customer behind you in line. -Selfless",
 			"Ask someone out for lunch you know but haven't gotten to know yet. -Selfless",
 			"Ask to hear more from someone about something you know they're passionate about. -Selfless",
 			"Give a stranger a friendly compliment. -Selfless",
