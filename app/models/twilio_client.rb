@@ -22,13 +22,7 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Ask to hear more from someone about something you know they're passionate about. -Selfless",
-			"Give a stranger a friendly compliment. -Selfless",
-			"Write a personal note to your waiter or waitress thanking them for their service. -Selfless",
-			"This one is easy - be friendly! -Selfless",
-			"If you can say yes, say yes. -Selfless",
-			"Volunteer for a community service event. -Selfless",
-			"If you don't have a pet allergy, go to your local pet shelter and give those cats and dogs (and others) some attention. -Selfless"
+			"Hi there! Thanks so much for subscribing to Selfless. Things have gotten a bit busy, so unfortunately for now, I'll need to pause the daily messages. In the meantime, feel free to visit the forum or edit your account. Again, thanks for working to make the world a more selfless place!"
 		].first
 
 		# @message[@index]
