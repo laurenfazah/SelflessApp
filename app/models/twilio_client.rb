@@ -22,7 +22,6 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Happy Halloween! Write a personal note to your waiter or waitress thanking them for their service. -Selfless",
 			"This one is easy - be friendly! -Selfless",
 			"If you can say yes, say yes. -Selfless",
 			"Volunteer for a community service event. -Selfless",
