@@ -22,7 +22,6 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"If you can say yes, say yes. -Selfless",
 			"Volunteer for a community service event. -Selfless",
 			"If you don't have a pet allergy, visit your local pet shelter and give those cats and dogs (and others) some attention. -Selfless"
 		].first
