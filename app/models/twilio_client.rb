@@ -22,7 +22,9 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"If you don't have a pet allergy, visit your local pet shelter and give those cats and dogs (and others) some attention. -Selfless"
+			"Take out your neighbor's trash. -Selfless",
+			"Ask someone how their day is going - make sure you listen when they respond. -Selfless",
+			"Ask to rake your neighbor's leaves. -Selfless",
 		].first
 
 		# @message[@index]
