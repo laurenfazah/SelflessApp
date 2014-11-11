@@ -22,7 +22,6 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Leave quarters behind at the laundromat or on the washing machine for the next person to come. -Selfless",
 			"Buy an extra bag of groceries on your next shopping trip to donate to a food shelter. -Selfless",
 
 
