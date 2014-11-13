@@ -22,7 +22,7 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Buy an extra bag of groceries on your next shopping trip to donate to a food shelter. -Selfless",
+			"Congratulate someone for something you've seen them accomplish. -Selfless",
 
 
 		].first
