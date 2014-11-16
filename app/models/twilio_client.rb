@@ -22,9 +22,7 @@ class TwilioClient
 
 	def daily_text
 		@message = [ 
-			"Congratulate someone for something you've seen them accomplish. -Selfless",
-
-
+			"Hi there! Thanks so much for subscribing to Selfless. Things have gotten a bit busy, so unfortunately for now, I'll need to pause the daily messages. In the meantime, feel free to visit the forum or edit your account. Again, thanks for working to make the world a more selfless place!"
 		].first
 
 		# @message[@index]
