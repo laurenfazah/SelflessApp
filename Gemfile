@@ -18,6 +18,8 @@ gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
 gem 'sass'
 
+gem 'bullet', group: :development
+
 group :development, :test do
 	gem 'pry-byebug'
 	gem 'pry-rails'
