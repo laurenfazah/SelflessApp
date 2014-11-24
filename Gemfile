@@ -19,6 +19,7 @@ gem 'autoprefixer-rails'
 gem 'sass'
 gem 'factory_girl_rails'
 gem 'faker'
+gem 'newrelic_rpm'
 
 gem 'bullet', group: :development
 
